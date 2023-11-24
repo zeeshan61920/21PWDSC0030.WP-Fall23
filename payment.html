@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment Receipt</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+   
+    body {
+      background-color: #fff;
+    }
+
+    .receipt-container {
+      background-color: #fff; 
+      padding: 20px;
+      margin-top: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    #thank-you-message {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    hr {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Home</a>
+    <a class="navbar-brand" href="contact.html">Contact Us</a>
+    <a class="navbar-brand" href="cart.html">Cart</a>
+  </nav>
+
+  <!-- Receipt content -->
+  <div class="container receipt-container">
+    <h1>Payment Receipt</h1>
+    
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody id="receipt-table">
+        <!-- Receipt items will be displayed here using JavaScript -->
+      </tbody>
+    </table>
+    <div id="total-amount">
+      <!-- Total amount will be displayed here using JavaScript -->
+    </div>
+  </div>
+
+  <!-- Thank You Message -->
+  <div id="thank-you-message">
+    <h1>Thank you, Be Connect with Us</h1>
+  </div>
+
+  <!-- Return to Home page link -->
+  <div class="container mt-4">
+    <a class="btn btn-primary" href="index.html">Return to Home</a>
+  </div>
+
+  <script>
+    // Function to fetch pricing details from book.json
+    async function fetchBookData() {
+      try {
+        const response = await fetch('book.json'); // Assuming 'book.json' is in the same directory
+        const data = await response.json();
+        return data;
+      } catch (error) {
+        console.error('Error fetching book data:', error);
+        return [];
+      }
+    }
+
+    // Function to display the payment receipt
+    async function displayPaymentReceipt() {
+      const receiptTable = document.getElementById('receipt-table');
+      receiptTable.innerHTML = '';
+
+      const totalAmount = document.getElementById('total-amount');
+      totalAmount.innerHTML = '';
+
+      // Retrieve cart items from local storage
+      const cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
+
+      // Fetch pricing details from book.json
+      const bookData = await fetchBookData();
+
+      let totalPrice = 0;
+
+      // Iterate through the cart items
+      cartItems.forEach((cartItem) => {
+        const book = bookData.find((item) => item.title === cartItem.title);
+        if (book) {
+          const row = document.createElement('tr');
+          row.innerHTML = `
+            <td>${book.title}</td>
+            <td>$${book.price.toFixed(2)}</td>
+          `;
+          receiptTable.appendChild(row);
+
+          totalPrice += book.price * cartItem.quantity;
+        }
+      });
+
+      totalAmount.innerHTML = `<p>Total Amount: $${totalPrice.toFixed(2)}</p>`;
+    }
+
+    // Call the function to display the payment receipt after the page is fully loaded
+    document.addEventListener('DOMContentLoaded', displayPaymentReceipt);
+  </script>
+</body>
+</html>

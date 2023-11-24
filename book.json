@@ -1,0 +1,273 @@
+[
+    {
+      "id": 1,
+      "title": "Artifitial Intelligence",
+      "author": "john robert",
+      "category": "trick",
+      "price": 20.2,
+      "description": "Exploration of artificial intelligence's ethical dilemmas and the implications of advanced technology on society.",
+      "cover_image": "pic1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Artifitial Intelligence",
+      "author": "Gurgedo",
+      "category": "Dystopian",
+      "price": 21.99,
+      "description": "Exploration of artificial intelligence's ethical dilemmas and the implications of advanced technology on society.",
+      "cover_image": "pic2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Artifitial Intelligence",
+      "author": "F. Scott Fitzgerald",
+      "category": "Classic",
+      "price": 15.50,
+      "description": "Exploration of artificial intelligence's ethical dilemmas and the implications of advanced technology on society.",
+      "cover_image": "pic3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Artifitial Intelligence",
+      "author": "Herman Melville",
+      "category": "Classic",
+      "price": 13.25,
+      "description": "Exploration of artificial intelligence's ethical dilemmas and the implications of advanced technology on society.",
+      "cover_image": "pic4.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Artifitial Intelligence",
+      "author": "Aldous Huxley",
+      "category": "Science Fiction",
+      "price": 10.75,
+      "description": "Exploration of artificial intelligence's ethical dilemmas and the implications of advanced technology on society.",
+      "cover_image": "pic5.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Artifitial Intelligence",
+      "author": "Jane Austen",
+      "category": "Classic",
+      "price": 19.99,
+      "description": "Exploration of artificial intelligence's ethical dilemmas and the implications of advanced technology on society.",
+      "cover_image": "pic6.jpg"
+    },
+    {
+      "id": 7,
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "category": "Fiction",
+      "price": 18.50,
+      "description": "Exploration of artificial intelligence's ethical dilemmas and the implications of advanced technology on society.",
+      "cover_image": "pic7.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Artifitial Intelligence",
+      "author": "J.R.R. Tolkien",
+      "category": "Fantasy",
+      "price": 15.99,
+      "description": "Exploration of artificial intelligence's ethical dilemmas and the implications of advanced technology on society.",
+      "cover_image": "pic8.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Artifitial Intelligence",
+      "author": "J.R.R. Tolkien",
+      "category": "Fantasy",
+      "price": 11.75,
+      "description": "Exploration of artificial intelligence's ethical dilemmas and the implications of advanced technology on society.",
+      "cover_image": "pic9.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Artifitial Intelligence",
+      "author": "Dan Brown",
+      "category": "Mystery",
+      "price": 14.25,
+      "description": "Exploration of artificial intelligence's ethical dilemmas and the implications of advanced technology on society.",
+      "cover_image": "pic10.jpg"
+    },
+    {
+      "id": 11,
+      "title": "AI",
+      "author": "Paulo Coelho",
+      "category": "Fiction",
+      "price": 10.50,
+      "description": "Exploration of artificial intelligence's ethical dilemmas and the implications of advanced technology on society.",
+      "cover_image": "pic11.jpeg"
+    },
+    {
+      "id": 12,
+      "title": "AI",
+      "author": "Charles Dickens",
+      "category": "Classic",
+      "price": 12.25,
+      "description": "Exploration of artificial intelligence's ethical dilemmas and the implications of advanced technology on society.",
+      "cover_image": "pic12.jpg"
+    },
+    {
+      "id": 13,
+      "title": "AI",
+      "author": "Leo Tolstoy",
+      "category": "Historical Fiction",
+      "price": 16.99,
+      "description": "Exploration of artificial intelligence's ethical dilemmas and the implications of advanced technology on society.",
+      "cover_image": "pic13.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Artifitial Intelligence",
+      "author": "Oscar Wilde",
+      "category": "Classic",
+      "price": 11.99,
+      "description": "Exploration of artificial intelligence's ethical dilemmas and the implications of advanced technology on society.",
+      "cover_image": "pic14.jpg"
+    },
+    {
+      "id": 15,
+      "title": "AI",
+      "author": "Mark Twain",
+      "category": "Classic",
+      "price": 10.99,
+      "description": "Exploration of artificial intelligence's ethical dilemmas and the implications of advanced technology on society.",
+      "cover_image": "pic15.jpg"
+    },
+    {
+      "id": 16,
+      "title": "AI",
+      "author": "Charlotte Bronte",
+      "category": "Classic",
+      "price": 9.50,
+      "description": "Exploration of artificial intelligence's ethical dilemmas and the implications of advanced technology on society.",
+      "cover_image": "pic16.jpg"
+    },
+    {
+      "id": 17,
+      "title": "Artifitial Intelligence",
+      "author": "Cormac McCarthy",
+      "category": "Dystopian",
+      "price": 13.75,
+      "description": "Exploration of artificial intelligence's ethical dilemmas and the implications of advanced technology on society.",
+      "cover_image": "pic17.jpeg"
+    },
+    {
+      "id": 18,
+      "title": "AI",
+      "author": "Mary Shelley",
+      "category": "Gothic",
+      "price": 11.25,
+      "description": "Exploration of artificial intelligence's ethical dilemmas and the implications of advanced technology on society.",
+      "cover_image": "pic1.jpg"
+    },
+    {
+      "id": 19,
+      "title": "Artifitial Intelligence",
+      "author": "Stephen King",
+      "category": "Horror",
+      "price": 14.50,
+      "description": "Exploration of artificial intelligence's ethical dilemmas and the implications of advanced technology on society.",
+      "cover_image": "pic11.jpeg"
+    },
+    {
+      "id": 20,
+      "title": "Artifitial Intelligence",
+      "author": "Fyodor Dostoevsky",
+      "category": "Classic",
+      "price": 12.50,
+      "description": "Exploration of artificial intelligence's ethical dilemmas and the implications of advanced technology on society.",
+      "cover_image": "pic2.jpeg"
+    },
+    {
+      "id": 21,
+      "author": "Dan Brown",
+      "title": "Artifitial Intelligence",
+      "category": "Classic",
+      "price": 13.99,
+      "description": "Exploration of artificial intelligence's ethical dilemmas and the implications of advanced technology on society.",
+      "cover_image": "pic13.jpg"
+    },
+    {
+      "id": 22,
+      "title": "AI",
+      "author": "Stephen King",
+      "category": "Horror",
+      "price": 11.75,
+      "description": "Exploration of artificial intelligence's ethical dilemmas and the implications of advanced technology on society.",
+      
+      "cover_image": "pic3.jpg"
+    },
+    {
+      "id": 23,
+      "title": "Artifitial Intelligence",
+      "author": "Homer",
+      "category": "Classic",
+      "price": 10.25,
+      "description": "Exploration of artificial intelligence's ethical dilemmas and the implications of advanced technology on society.",
+      "cover_image": "pic4.jpg"
+    },
+    {
+      "id": 24,
+      "title": "Artifitial Intelligence",
+      "author": "Albert Camus",
+      "category": "Philosophical",
+      "price": 12.25,
+      "description": "Exploration of artificial intelligence's ethical dilemmas and the implications of advanced technology on society.",
+      "cover_image": "pic5.jpg"
+    },
+    {
+      "id": 25,
+      "title": "Artifitial Intelligence",
+      "author": "Margaret Mitchell",
+      "category": "Historical Fiction",
+      "price": 13.50,
+      "description": "Exploration of artificial intelligence's ethical dilemmas and the implications of advanced technology on society.",
+      "cover_image": "pic6.jpg"
+    },
+    {
+      "id": 26,
+      "title": "AI",
+      "author": "Khaled Hosseini",
+      "category": "Contemporary",
+      "price": 10.99,
+      "description": "Exploration of artificial intelligence's ethical dilemmas and the implications of advanced technology on society.",
+      "cover_image": "pic7.jpg"
+    },
+    {
+      "id": 27,
+      "title": "The Bell Jar",
+      "author": "Sylvia Plath",
+      "category": "Autobiographical",
+      "price": 11.50,
+      "description": "Autobiographical novel.",
+      "cover_image": "pic8.jpg"
+    },
+    {
+      "id": 28,
+      "title": "The Count of Monte Cristo",
+      "author": "Alexandre Dumas",
+      "category": "Adventure",
+      "price": 12.99,
+      "description": "Adventure novel.",
+      "cover_image": "pic9.jpg"
+    },
+    {
+      "id": 29,
+      "title": "Artifitial Intelligence",
+      "author": "Leo Tolstoy",
+      "category": "Classic",
+      "price": 12.75,
+      "description": "Exploration of artificial intelligence's ethical dilemmas and the implications of advanced technology on society",
+      "cover_image": "pic14.jpg"
+    },
+    {
+      "id": 30,
+      "title": "Artifitial Intelligence",
+      "author": "John Steinbeck",
+      "category": "Classic",
+      "price": 11.99,
+      "description": "Exploration of artificial intelligence's ethical dilemmas and the implications of advanced technology on society.",
+      "cover_image": "30.jpg"
+    }
+  ]

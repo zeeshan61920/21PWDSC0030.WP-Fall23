@@ -1,84 +1,560 @@
+/* styles.css */
+
+/* Navbar styles */
+.navbar-brand {
+  margin-right: 20px;
+  color: #333;
+  font-weight: bold;
+}
+
+.navbar {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Contact Information styles */
+.container {
+  margin-top: 30px;
+  color: #333;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+li {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Contact Form styles */
+#contact-form {
+  margin-top: 30px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #28a745;
+  border-color: #28a745;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #218838;
+  border-color: #218838;
+}
+
+/* styles.css */
+
+/* Navbar styles */
+.navbar-brand {
+  margin-right: 20px;
+  color: #333;
+  font-weight: bold;
+}
+
+.navbar {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Contact Information styles */
+.container {
+  margin-top: 30px;
+}
+
+h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 24px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+li {
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 8px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Contact Form styles */
+#contact-form {
+  margin-top: 30px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #28a745;
+  border-color: #28a745;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #218838;
+  border-color: #218838;
+}
+
+/* styles.css */
+
+/* Navbar styles */
+.navbar-brand {
+  margin-right: 20px;
+  color: #333;
+  font-weight: bold;
+}
+
+.navbar {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Contact Information styles */
+.container {
+  margin-top: 30px;
+}
+
+h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 24px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+li {
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 8px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Contact Form styles */
+#contact-form {
+  margin-top: 30px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #28a745;
+  border-color: #28a745;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #218838;
+  border-color: #218838;
+}
+
+/* styles.css */
+/* styles.css */
+
+/* Navbar styles */
+.navbar-brand {
+  margin-right: 20px;
+  color: #333;
+  font-weight: bold;
+}
+
+.navbar {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Search bar styles */
+#search-input {
+  width: 60%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#search-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#search-button:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* Book card styles */
+.card {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+.card-title {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.card-text {
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.btn-primary {
+  padding: 8px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #28a745;
+  border-color: #28a745;
+  border-radius: 5px;
+}
+
+.btn-primary:hover {
+  background-color: #218838;
+  border-color: #218838;
+}
+
+/* Navbar styles */
+.navbar-brand {
+  margin-right: 20px;
+  color: #333;
+  font-weight: bold;
+}
+
+.navbar {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Cart content styles */
+.container {
+  margin-top: 30px;
+}
+
+h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.card-text {
+  color: #666;
+  margin-bottom: 5px;
+}
+
+input[type="number"] {
+  width: 50px;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+/* Total amount styles */
+#total-amount {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Proceed to Payment button styles */
+#proceed-to-payment {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+#proceed-to-payment:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: #333; /* Dark background color */
-    color: #fff; /* Text color */
-  }
-  
-  .container {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1200px;
-    width: 100%;
-    padding: 20px;
-    background-color: #444; /* Dark container background color */
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 0 10px;
-  }
-  
-  .book-list,
-  .add-book,
-  .search-books {
-    margin: 0 10px;
-    background-color: #555; /* Dark module background color */
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  ul li {
-    margin-bottom: 10px;
-    border-bottom: 1px solid #777; /* Darker border color */
-    padding-bottom: 10px;
-  }
-  
-  .input-group {
-    margin-bottom: 15px;
-  }
-  
-  .input-group label {
-    font-weight: bold;
-    margin-bottom: 5px;
-    display: block;
-  }
-  
-  .input-group input {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #777; /* Darker border color */
-    border-radius: 4px;
-    box-sizing: border-box;
-    font-size: 16px;
-    display: block;
-    margin-top: 5px;
-    background-color: #444; /* Dark input background color */
-    color: #fff; /* Input text color */
-  }
-  
-  button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    display: block;
-    margin-top: 10px;
-    background-color: #0056b3;
-    transition: background-color 0.3s;
-  }
-  
-  button:hover {
-    background-color: #003f80; /* Darker hover color */
-  }
-  
+  background: linear-gradient(135deg, #5570e6, #f42d2d);
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #4e504c, #f42d58);
+  text-align: center;
+  font-weight: bold;
+}
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 19px;
+  font-size: 23px;
+}
+.navbar a:hover {
+  color: #000000;
+}
+
+#title-overlay {
+  text-align: center;
+  background: linear-gradient(135deg, #35477d, #a1e655);
+  color: #fff;
+  padding: 20px;
+}
+#title-overlay h2 {
+  font-size: 40px;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  background: transparent;
+  text-shadow: 2px 2px 4px rgba(0, 190, 41, 0.5);
+}
+
+.carousel {
+  margin-top: 20px;
+}
+.carousel .carousel-inner {
+  height: 600px;
+}
+.carousel .carousel-inner .carousel-item img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: none;
+  text-align: center;
+  background: #FFF5E1;
+  margin: 10px;
+  padding: 10px;
+  transition: transform 0.2s;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.card-title {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px 0;
+}
+.card-text {
+  font-size: 16px;
+  color: #020202;
+  background: transparent;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #a1e655, #f1f42d);
+  border: none;
+  border-radius: 5px;
+  color: #020202;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.btn-primary:hover {
+  background: linear-gradient(135deg, #5b8c31, #c7ce02);
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #000000;
+}
+
+.navbar .navbar-brand {
+  color: #0e0d0d;
+}
+
+.navbar .navbar-nav .nav-item.active .nav-link {
+  background: linear-gradient(135deg, #f57f17, #a94614);
+  color: #fff;
+}
+
+.bold-line {
+  border: none;
+  border-top: 3px solid #000;
+}/*# sourceMappingURL=styles.css.map */
